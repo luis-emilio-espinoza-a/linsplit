@@ -1,0 +1,11 @@
+# For optimal performance, install Numpy with system BLAS/LAPACK libraries:
+# pip install numpy --no-binary numpy  # or:
+# NPY_BLAS_ORDER=openblas NPY_LAPACK_ORDER=openblas pip install numpy
+# conda create -n linsplit python=3.12.7
+# conda activate linsplit
+# pip install -r requirements.txt
+numpy>=2.2 
+scipy>=1.15 # only for use of paper results
+sympy>=1.14 # only for use of paper results
+matplotlib>=3.10 # only for use of paper results
+seaborn>=0.13 # only for use of paper results
